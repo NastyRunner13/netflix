@@ -82,8 +82,6 @@ export default function Navbar() {
     return () => (window.onscroll = null);
   };
 
-  console.log(isScrolled);
-
   return (
     <NavBar
       style={
